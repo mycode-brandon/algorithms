@@ -1,3 +1,6 @@
+# Two methods are available, one using typical pythonic string array manipulation and the other some
+# number theory methods.
+
 def isPalindrome(x: int) -> bool:
     if x < 0 or (x % 10 == 0 and x != 0):
         return False
